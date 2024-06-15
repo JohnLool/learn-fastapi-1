@@ -1,0 +1,8 @@
+### POST /items/ - Add item to storage ###
+
+POST http://localhost:8000/items/
+Content-Type: application/json
+
+{
+  "item": "example_item"
+}
